@@ -1,11 +1,6 @@
 @import "../_reset.css";
 @import "../_general.css";
 
-
-.page-cover {
-    background-image: radial-gradient(circle 1560px at 55% 22%, #3b3bfd 0%, #00006e 100%);
-}
-
 .fullscreen-container {
     margin: 0 auto;
     padding: 0 50px;
@@ -18,6 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: radial-gradient(circle 1560px at 55% 22%, #3b3bfd 0%, #00006e 100%);
 }
 
 .cherry-wrapper {
