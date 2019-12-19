@@ -1,0 +1,116 @@
+@import "../_reset.css";
+@import "../_general.css";
+
+.main {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: radial-gradient(circle 400px at 25% 55%, #3b3bfd 0%, #00006e 100%);
+}
+
+.cherry-wrapper {
+    width: 130px;
+    height: 140px;
+    position: absolute;
+    top: -5%;
+    left: 2%;
+}
+
+.cherry-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+
+.title-block {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.title-text {
+    font-size: 95px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: -13px;
+}
+
+.title-letter {
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+.yellow-text {
+    color: var(--yellow);
+}
+
+.red-text {
+    color: var(--red);
+}
+
+.green-text {
+    color: var(--green);
+}
+
+.blue-text {
+    color: var(--blue);
+}
+
+.purple-text {
+    color: var(--purple);
+}
+
+.capital-letters-fontsize {
+    font-size: 82px;
+}
+
+.playboard-block {
+    position: relative;
+}
+
+.strawberry-wrapper {
+    width: 165px;
+    height: 120px;
+    position: absolute;
+    right: -27%;
+    bottom: 5%;
+}
+
+.strawberry-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+
+.playboard {
+    width: 392px;
+    height: 300px;
+    box-shadow: 5px 14px 79px rgba(0, 0, 0, 0.67);
+    border: 10px solid rgba(255, 255, 255, 0.32);
+    border-radius: 10px;
+    margin: 40px 0;
+}
+
+.play-board-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+
+.play-button {
+    width: 340px;
+    cursor: pointer;
+}
+
+.play-button-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+
+
+

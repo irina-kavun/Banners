@@ -1,0 +1,127 @@
+@import "../_reset.css";
+@import "../_general.css";
+
+
+.page-cover {
+    background-image: radial-gradient(circle 1560px at 55% 22%, #3b3bfd 0%, #00006e 100%);
+}
+
+.fullscreen-container {
+    margin: 0 auto;
+    padding: 0 50px;
+    max-width: 1100px;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cherry-wrapper {
+    width: 250px;
+    height: 270px;
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+
+.cherry-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+
+.title-block {
+    width: 80%;
+    text-align: center;
+    padding-top: 295px;
+}
+
+.title-text {
+    font-size: 203px;
+    font-weight: 400;
+    line-height: 120px;
+    letter-spacing: -29px;
+}
+
+.title-letter {
+    text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+}
+
+.yellow-text {
+    color: var(--yellow);
+}
+
+.red-text {
+    color: var(--red);
+}
+
+.green-text {
+    color: var(--green);
+}
+
+.blue-text {
+    color: var(--blue);
+}
+
+.purple-text {
+    color: var(--purple);
+}
+
+.capital-letters-fontsize {
+    font-size: 175px;
+}
+
+.playboard-block {
+    position: relative;
+    margin-top: 250px;
+}
+
+.strawberry-wrapper {
+    width: 340px;
+    height: 250px;
+    position: absolute;
+    top: -25%;
+    right: 3%;
+}
+
+.strawberry-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+
+.playboard {
+    width: 965px;
+    box-shadow: 5px 14px 79px rgba(0, 0, 0, 0.67);
+    border: 10px solid rgba(255, 255, 255, 0.32);
+    border-radius: 10px;
+}
+
+.play-board-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+
+.play-button {
+    width: 640px;
+    padding: 150px 0 120px 0;
+    cursor: pointer;
+}
+
+.play-button-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+
+
+

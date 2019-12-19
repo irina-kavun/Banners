@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Frankfurt';
+    src: url('../fonts/FRANKFRT.TTF') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Frankfurt', serif;
+}
+
+:root {
+    --yellow: #fefe03;
+    --red: #fb0000;
+    --green: #03fe05;
+    --blue: #05fefd;
+    --purple: #fc05fc;
+}
+
+
